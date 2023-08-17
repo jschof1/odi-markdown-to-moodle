@@ -1,0 +1,1117 @@
+@import"https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined";
+
+.odi-content .banner-img {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: var(--spacer-half);
+    padding: 0
+}
+
+.odi-content .banner-img>h2 span {
+    background-color: #000;
+    color: #fff;
+    font-weight: 200;
+    padding: 1rem;
+    text-transform: uppercase
+}
+
+.odi-content .banner-img img {
+    width: 100%;
+    max-width: 100% !important;
+    border-radius: 2px
+}
+
+.odi-content .banner-img .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem
+}
+
+.odi-content .banner-img .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    transform: translate(0, 100%)
+}
+
+.odi-content .banner-img .top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0 1rem
+}
+
+.odi-content .banner-img .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 1rem
+}
+
+.odi-content .banner-img .centered {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -100%)
+}
+
+.odi-content .banner-img .below {
+    position: absolute;
+    bottom: -3rem;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.odi-content p.banner-description {
+    font-style: italic;
+    font-size: small;
+    margin-top: -1.5rem !important;
+    text-align: center
+}
+
+.odi-content .odi-img-attribution {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    color: #fff
+}
+
+.odi-content .odi-img-attribution a {
+    color: var(--odi-color8)
+}
+
+.odi-content .odi-img-attribution.bottom-right {
+    border-bottom-right-radius: 2px
+}
+
+.odi-content.bottom-left {
+    border-bottom-left-radius: 2px
+}
+
+.odi-content.top-right {
+    border-top-right-radius: 2px
+}
+
+.odi-content.top-right {
+    border-top-right-radius: 2px
+}
+
+.odi-content {
+    --info: var(--odi-color14);
+    --discuss: var(--odi-color11);
+    --reflect: var(--odi-color22);
+    --practice: var(--odi-color6);
+    --journal: var(--odi-color17)
+}
+
+.odi-content .panel {
+    background-color: var(--odi-color24);
+    margin: 1rem 0 0 0;
+    padding: var(--padding-main);
+    border-left: 1rem solid #000;
+    border-radius: 2px
+}
+
+.odi-content .panel>[role=heading],
+.odi-content .panel h1,
+.odi-content .panel h2,
+.odi-content .panel h3,
+.odi-content .panel h4,
+.odi-content .panel h5,
+.odi-content .panel h6 {
+    font-weight: 400 !important
+}
+
+.odi-content .panel .info-block,
+.odi-content .panel blockquote {
+    background-color: #fff;
+    color: inherit;
+    margin: var(--spacer-half) 0;
+    border-radius: 2px
+}
+
+.odi-content .panel>[role=heading],
+.odi-content .panel h1,
+.odi-content .panel h2,
+.odi-content .panel h3,
+.odi-content .panel h4,
+.odi-content .panel h5,
+.odi-content .panel h6 {
+    font-size: 120%;
+    line-height: 100%;
+    margin: .5rem 0;
+    color: #000
+}
+
+.odi-content .panel .odi-icon-quote {
+    margin: 0 0 -0.5rem 0
+}
+
+.odi-content .panel:first-child {
+    margin-top: 0
+}
+
+.odi-content .info-block,
+.odi-content blockquote {
+    background-color: var(--odi-color24);
+    margin: 1rem 0 0 0;
+    padding: var(--padding-main);
+    border-radius: 2px
+}
+
+.odi-content .info-block [role=heading],
+.odi-content .info-block h1,
+.odi-content .info-block h2,
+.odi-content .info-block h3,
+.odi-content .info-block h4,
+.odi-content .info-block h5,
+.odi-content .info-block h6,
+.odi-content blockquote [role=heading],
+.odi-content blockquote h1,
+.odi-content blockquote h2,
+.odi-content blockquote h3,
+.odi-content blockquote h4,
+.odi-content blockquote h5,
+.odi-content blockquote h6 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400 !important;
+    margin: 1rem 0;
+    text-transform: none
+}
+
+.odi-content .info-block .odi-icon-quote,
+.odi-content blockquote .odi-icon-quote {
+    margin: 0 0 -0.5rem 0
+}
+
+.odi-content .info {
+    border-color: var(--info)
+}
+
+.odi-content .discuss {
+    border-color: var(--discuss)
+}
+
+.odi-content .reflect {
+    border-color: var(--reflect)
+}
+
+.odi-content .practice,
+.odi-content .produce,
+.odi-content .enquire {
+    border-color: var(--practice)
+}
+
+.odi-content .journal {
+    border-color: var(--journal)
+}
+
+.odi-content .odi-icon:before,
+.odi-content blockquote h3:before {
+    font-family: var(--odi-iconfont);
+    font-size: 180%;
+    line-height: 120%;
+    padding-right: 1rem;
+    vertical-align: middle;
+    font-weight: normal
+}
+
+.odi-content .odi-icon-link:before {
+    content: ""
+}
+
+.odi-content .odi-icon-emphasis:before {
+    content: ""
+}
+
+.odi-content .odi-icon-summary:before {
+    content: ""
+}
+
+.odi-content .odi-icon-reading:before {
+    content: ""
+}
+
+.odi-content .odi-icon-quote:before,
+.odi-content blockquote .quote-open:before {
+    font-family: "Material Icons";
+    content: "";
+    display: table-row;
+    transform: rotate(-180deg);
+    font-size: 3rem;
+    padding-left: 0
+}
+
+.odi-content .info-block .odi-icon-quote:before,
+.odi-content .panel .odi-icon-quote:before {
+    display: inline-block;
+    transform: rotate(180deg);
+    padding: 5px 0 0 1rem;
+    margin: -5px 0 0 0
+}
+
+.odi-content .odi-icon-quote:before,
+.odi-content blockquote .quote-close:after {
+    font-family: "Material Icons";
+    content: "";
+    font-size: 3rem;
+    display: table-row;
+    padding-left: 0
+}
+
+.odi-content .odi-icon-video:before {
+    content: ""
+}
+
+.odi-content .odi-icon-podcast:before {
+    content: ""
+}
+
+.odi-content .odi-icon-discuss:before {
+    content: ""
+}
+
+.odi-content .odi-icon-reflect:before {
+    content: ""
+}
+
+.odi-content .odi-icon-practice:before {
+    content: ""
+}
+
+.odi-content .odi-icon-produce:before {
+    content: ""
+}
+
+.odi-content .odi-icon-enquire:before {
+    content: ""
+}
+
+.odi-content .odi-icon-journal:before {
+    content: ""
+}
+
+.odi-content blockquote .quote-text,
+.odi-content .panel blockquote .quote-text {
+    padding-left: var(--spacer-main);
+    font-size: 125%;
+    font-style: italic
+}
+
+.odi-content cite {
+    display: block;
+    text-align: left;
+    margin: -2rem 0 0 3rem;
+    font-size: 80%
+}
+
+.odi-content .user_content .thumbnail {
+    border: none;
+    padding: 0 !important;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.odi-content figure {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    border: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.odi-content figure img {
+    width: 100%;
+    border-radius: 0;
+    margin: 0 !important
+}
+
+.odi-content figcaption {
+    text-align: center;
+    font-size: smaller
+}
+
+.odi-content figcaption>* {
+    text-align: left
+}
+
+.odi-content details {
+    display: block;
+    margin: var(--spacer-half) 0;
+    background-color: #fff;
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: 2px
+}
+
+.odi-content details>*:nth-child(2) {
+    padding-top: 3.2rem
+}
+
+.odi-content details>*:last-child {
+    margin-bottom: 0
+}
+
+.odi-content details summary {
+    font-size: 1.2rem;
+    list-style: none;
+    line-height: 30px;
+    vertical-align: middle;
+    font-weight: normal;
+    background-color: var(--odi-color21);
+    color: #fff;
+    margin: -2rem;
+    padding: 1rem
+}
+
+.odi-content details summary::marker,
+.odi-content details summary::-webkit-details-marker {
+    display: none
+}
+
+.odi-content details summary::before {
+    font-family: "Material Icons";
+    content: "";
+    line-height: 30px;
+    vertical-align: middle;
+    padding-right: 1rem
+}
+
+.odi-content details:not([open])>summary {
+    border-radius: 2px
+}
+
+.odi-content details[open] summary::before {
+    content: ""
+}
+
+.odi-content details[open]>summary {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px
+}
+
+.odi-content .tabbed {
+    overflow-x: hidden;
+    margin: var(--spacer-half) 0
+}
+
+.odi-content .tabbed>fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+.odi-content .tabbed>fieldset>legend {
+    position: absolute;
+    clip: rect(0 0 0 0)
+}
+
+.odi-content .tabbed [type=radio] {
+    display: none
+}
+
+.odi-content .tabs {
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0
+}
+
+.odi-content .tab>label {
+    display: block;
+    margin-bottom: 0;
+    padding: 12px 15px;
+    background: var(--odi-color20);
+    font-size: 1.2rem;
+    font-weight: normal;
+    cursor: pointer;
+    border-right: 1px solid var(--odi-color24)
+}
+
+.odi-content .tab>label :last-child {
+    border-right: 0
+}
+
+.odi-content .tabs>.tab:first-of-type label {
+    border-top-left-radius: 2px
+}
+
+.odi-content .tabs>.tab:last-of-type label {
+    border-top-right-radius: 2px
+}
+
+.odi-content .tab:hover label {
+    background-color: var(--odi-color21);
+    color: #333;
+    color: #fff
+}
+
+.odi-content .tab-content {
+    display: none;
+    background-color: #fff;
+    margin-top: -1rem;
+    padding: 2rem;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+
+.odi-content .tabbed [type=radio]:nth-of-type(1):checked~.tabs .tab:nth-of-type(1) label,
+.odi-content .tabbed [type=radio]:nth-of-type(2):checked~.tabs .tab:nth-of-type(2) label,
+.odi-content .tabbed [type=radio]:nth-of-type(3):checked~.tabs .tab:nth-of-type(3) label,
+.odi-content .tabbed [type=radio]:nth-of-type(4):checked~.tabs .tab:nth-of-type(4) label,
+.odi-content .tabbed [type=radio]:nth-of-type(5):checked~.tabs .tab:nth-of-type(5) label,
+.odi-content .tabbed [type=radio]:nth-of-type(6):checked~.tabs .tab:nth-of-type(6) label,
+.odi-content .tabbed [type=radio]:nth-of-type(7):checked~.tabs .tab:nth-of-type(7) label,
+.odi-content .tabbed [type=radio]:nth-of-type(8):checked~.tabs .tab:nth-of-type(8) label,
+.odi-content .tabbed [type=radio]:nth-of-type(9):checked~.tabs .tab:nth-of-type(9) label,
+.odi-content .tabbed [type=radio]:nth-of-type(10):checked~.tabs .tab:nth-of-type(10) label {
+    background: #fff;
+    color: inherit
+}
+
+.odi-content .tabbed [type=radio]:nth-of-type(1):checked~.tab-content:nth-of-type(1),
+.odi-content .tabbed [type=radio]:nth-of-type(2):checked~.tab-content:nth-of-type(2),
+.odi-content .tabbed [type=radio]:nth-of-type(3):checked~.tab-content:nth-of-type(3),
+.odi-content .tabbed [type=radio]:nth-of-type(4):checked~.tab-content:nth-of-type(4),
+.odi-content .tabbed [type=radio]:nth-of-type(5):checked~.tab-content:nth-of-type(5),
+.odi-content .tabbed [type=radio]:nth-of-type(6):checked~.tab-content:nth-of-type(6),
+.odi-content .tabbed [type=radio]:nth-of-type(7):checked~.tab-content:nth-of-type(7),
+.odi-content .tabbed [type=radio]:nth-of-type(8):checked~.tab-content:nth-of-type(8),
+.odi-content .tabbed [type=radio]:nth-of-type(9):checked~.tab-content:nth-of-type(9),
+.odi-content .tabbed [type=radio]:nth-of-type(10):checked~.tab-content:nth-of-type(10) {
+    display: block
+}
+
+.odi-content {
+    --spacer-main: 3rem;
+    --spacer-half: 1.5rem;
+    --padding-main: 1rem 1.8rem
+}
+
+.spaced {
+    margin-top: var(--spacer-main);
+    margin-bottom: var(--spacer-main)
+}
+
+.spaced-half {
+    margin-top: var(--spacer-half);
+    margin-bottom: var(--spacer-half)
+}
+
+.odi-content .odi-table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--odi-color19);
+    border-collapse: collapse;
+    background-color: #fff
+}
+
+.odi-content .odi-table th,
+.odi-content .odi-table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid var(--odi-color18)
+}
+
+.odi-content .odi-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--odi-color18)
+}
+
+.odi-content .odi-table tbody+tbody {
+    border-top: 2px solid var(--odi-color18)
+}
+
+.odi-content .odi-table-sm th,
+.odi-content .odi-table-sm td {
+    padding: .3rem
+}
+
+.odi-content .odi-table-bordered {
+    border: 1px solid var(--odi-mono2)
+}
+
+.odi-content .odi-table-bordered th,
+.odi-content .odi-table-bordered td {
+    border: 1px solid var(--odi-mono2)
+}
+
+.odi-content .odi-table-bordered thead th,
+.odi-content .odi-table-bordered thead td {
+    border-bottom-width: 2px
+}
+
+.odi-content .odi-table-borderless th,
+.odi-content .odi-table-borderless td,
+.odi-content .odi-table-borderless thead th,
+.odi-content .odi-table-borderless tbody+tbody {
+    border: 0
+}
+
+.odi-content .odi-table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.odi-content .odi-table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.odi-content .odi-table-primary,
+.odi-content .odi-table-primary>th,
+.odi-content .odi-table-primary>td {
+    background-color: var(--odi-color1);
+    color: #fff
+}
+
+.odi-content .odi-table-primary th,
+.odi-content .odi-table-primary td,
+.odi-content .odi-table-primary thead th,
+.odi-content .odi-table-primary tbody+tbody {
+    border-color: #7abaff
+}
+
+.odi-content .odi-table-hover .odi-table-primary:hover {
+    background-color: #9fcdff
+}
+
+.odi-content .odi-table-hover .odi-table-primary:hover>td,
+.odi-content .odi-table-hover .odi-table-primary:hover>th {
+    background-color: #9fcdff
+}
+
+.odi-content .odi-table-secondary,
+.odi-content .odi-table-secondary>th,
+.odi-content .odi-table-secondary>td {
+    background-color: #d6d8db
+}
+
+.odi-content .odi-table-secondary th,
+.odi-content .odi-table-secondary td,
+.odi-content .odi-table-secondary thead th,
+.odi-content .odi-table-secondary tbody+tbody {
+    border-color: #b3b7bb
+}
+
+.odi-content .odi-table-hover .odi-table-secondary:hover {
+    background-color: #c8cbcf
+}
+
+.odi-content .odi-table-hover .odi-table-secondary:hover>td,
+.odi-content .odi-table-hover .odi-table-secondary:hover>th {
+    background-color: #c8cbcf
+}
+
+.odi-content .odi-table-success,
+.odi-content .odi-table-success>th,
+.odi-content .odi-table-success>td {
+    background-color: #c3e6cb
+}
+
+.odi-content .odi-table-success th,
+.odi-content .odi-table-success td,
+.odi-content .odi-table-success thead th,
+.odi-content .odi-table-success tbody+tbody {
+    border-color: #8fd19e
+}
+
+.odi-content .odi-table-hover .odi-table-success:hover {
+    background-color: #b1dfbb
+}
+
+.odi-content .odi-table-hover .odi-table-success:hover>td,
+.odi-content .odi-table-hover .odi-table-success:hover>th {
+    background-color: #b1dfbb
+}
+
+.odi-content .odi-table-info,
+.odi-content .odi-table-info>th,
+.odi-content .odi-table-info>td {
+    background-color: #bee5eb
+}
+
+.odi-content .odi-table-info th,
+.odi-content .odi-table-info td,
+.odi-content .odi-table-info thead th,
+.odi-content .odi-table-info tbody+tbody {
+    border-color: #86cfda
+}
+
+.odi-content .odi-table-hover .odi-table-info:hover {
+    background-color: #abdde5
+}
+
+.odi-content .odi-table-hover .odi-table-info:hover>td,
+.odi-content .odi-table-hover .odi-table-info:hover>th {
+    background-color: #abdde5
+}
+
+.odi-content .odi-table-warning,
+.odi-content .odi-table-warning>th,
+.odi-content .odi-table-warning>td {
+    background-color: #ffeeba
+}
+
+.odi-content .odi-table-warning th,
+.odi-content .odi-table-warning td,
+.odi-content .odi-table-warning thead th,
+.odi-content .odi-table-warning tbody+tbody {
+    border-color: #ffdf7e
+}
+
+.odi-content .odi-table-hover .odi-table-warning:hover {
+    background-color: #ffe8a1
+}
+
+.odi-content .odi-table-hover .odi-table-warning:hover>td,
+.odi-content .odi-table-hover .odi-table-warning:hover>th {
+    background-color: #ffe8a1
+}
+
+.odi-content .odi-table-danger,
+.odi-content .odi-table-danger>th,
+.odi-content .odi-table-danger>td {
+    background-color: #f5c6cb
+}
+
+.odi-content .odi-table-danger th,
+.odi-content .odi-table-danger td,
+.odi-content .odi-table-danger thead th,
+.odi-content .odi-table-danger tbody+tbody {
+    border-color: #ed969e
+}
+
+.odi-content .odi-table-hover .odi-table-danger:hover {
+    background-color: #f1b0b7
+}
+
+.odi-content .odi-table-hover .odi-table-danger:hover>td,
+.odi-content .odi-table-hover .odi-table-danger:hover>th {
+    background-color: #f1b0b7
+}
+
+.odi-content .odi-table-light,
+.odi-content .odi-table-light>th,
+.odi-content .odi-table-light>td {
+    background-color: #fdfdfe
+}
+
+.odi-content .odi-table-light th,
+.odi-content .odi-table-light td,
+.odi-content .odi-table-light thead th,
+.odi-content .odi-table-light tbody+tbody {
+    border-color: #fbfcfc
+}
+
+.odi-content .odi-table-hover .odi-table-light:hover {
+    background-color: #ececf6
+}
+
+.odi-content .odi-table-hover .odi-table-light:hover>td,
+.odi-content .odi-table-hover .odi-table-light:hover>th {
+    background-color: #ececf6
+}
+
+.odi-content .odi-table-dark,
+.odi-content .odi-table-dark>th,
+.odi-content .odi-table-dark>td {
+    background-color: #c6c8ca
+}
+
+.odi-content .odi-table-dark th,
+.odi-content .odi-table-dark td,
+.odi-content .odi-table-dark thead th,
+.odi-content .odi-table-dark tbody+tbody {
+    border-color: #95999c
+}
+
+.odi-content .odi-table-hover .odi-table-dark:hover {
+    background-color: #b9bbbe
+}
+
+.odi-content .odi-table-hover .odi-table-dark:hover>td,
+.odi-content .odi-table-hover .odi-table-dark:hover>th {
+    background-color: #b9bbbe
+}
+
+.odi-content .odi-table-active,
+.odi-content .odi-table-active>th,
+.odi-content .odi-table-active>td {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.odi-content .odi-table-hover .odi-table-active:hover {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.odi-content .odi-table-hover .odi-table-active:hover>td,
+.odi-content .odi-table-hover .odi-table-active:hover>th {
+    background-color: rgba(0, 0, 0, .075)
+}
+
+.odi-content .odi-table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55
+}
+
+.odi-content .odi-table .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: var(--odi-mono2)
+}
+
+.odi-content .odi-table-dark {
+    color: #fff;
+    background-color: #343a40
+}
+
+.odi-content .odi-table-dark th,
+.odi-content .odi-table-dark td,
+.odi-content .odi-table-dark thead th {
+    border-color: #454d55
+}
+
+.odi-content .odi-table-dark.odi-table-bordered {
+    border: 0
+}
+
+.odi-content .odi-table-dark.odi-table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, .05)
+}
+
+.odi-content .odi-table-dark.odi-table-hover tbody tr:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .075)
+}
+
+@media(max-width: 575.98px) {
+    .odi-content .odi-table-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .odi-content .odi-table-responsive-sm>.odi-table-bordered {
+        border: 0
+    }
+}
+
+@media(max-width: 767.98px) {
+    .odi-content .odi-table-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .odi-content .odi-table-responsive-md>.odi-table-bordered {
+        border: 0
+    }
+}
+
+@media(max-width: 991.98px) {
+    .odi-content .odi-table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .odi-content .odi-table-responsive-lg>.odi-table-bordered {
+        border: 0
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .odi-content .odi-table-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .odi-content .odi-table-responsive-xl>.odi-table-bordered {
+        border: 0
+    }
+}
+
+.odi-content .odi-table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: var(--spacer-half) 0 var(--spacer-half) 0
+}
+
+.odi-content .odi-table-responsive>.odi-table-bordered {
+    border: 0
+}
+
+.odi-content .odi-table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+.odi-content .odi-table-responsive>.odi-table-bordered {
+    border: 0
+}
+
+.odi-content {
+    font-size: 16px;
+    line-height: 30px
+}
+
+.odi-content .lead {
+    font-weight: 600
+}
+
+.odi-content .left {
+    text-align: left
+}
+
+.odi-content .right {
+    text-align: right
+}
+
+.odi-content .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.odi-content .justify {
+    text-align: justify
+}
+
+.odi-content .hidden-sm {
+    display: none
+}
+
+.odi-content .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (min-width: 33.75em) {
+    .odi-content .container {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .odi-content .container {
+        width: 75%;
+        max-width: 60rem
+    }
+}
+
+.odi-content .row {
+    position: relative;
+    width: 100%
+}
+
+.odi-content .row [class^=col] {
+    float: left;
+    margin: 0;
+    min-height: .125rem
+}
+
+.odi-content .row::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.odi-content .col-1,
+.odi-content .col-2,
+.odi-content .col-3,
+.odi-content .col-4,
+.odi-content .col-5,
+.odi-content .col-6,
+.odi-content .col-7,
+.odi-content .col-8,
+.odi-content .col-9,
+.odi-content .col-10,
+.odi-content .col-11,
+.odi-content .col-12 {
+    width: 100%
+}
+
+.odi-content .col-1-sm {
+    width: 4.6666666667%
+}
+
+.odi-content .col-2-sm {
+    width: 13.3333333333%
+}
+
+.odi-content .col-3-sm {
+    width: 22%
+}
+
+.odi-content .col-4-sm {
+    width: 30.6666666667%
+}
+
+.odi-content .col-5-sm {
+    width: 39.3333333333%
+}
+
+.odi-content .col-6-sm {
+    width: 48%
+}
+
+.odi-content .col-7-sm {
+    width: 56.6666666667%
+}
+
+.odi-content .col-8-sm {
+    width: 65.3333333333%
+}
+
+.odi-content .col-9-sm {
+    width: 74%
+}
+
+.odi-content .col-10-sm {
+    width: 82.6666666667%
+}
+
+.odi-content .col-11-sm {
+    width: 91.3333333333%
+}
+
+.odi-content .col-12-sm {
+    width: 100%
+}
+
+@media only screen and (min-width: 45em) {
+    .odi-content .col-1 {
+        width: 4.6666666667%
+    }
+
+    .odi-content .col-2 {
+        width: 13.3333333333%
+    }
+
+    .odi-content .col-3 {
+        width: 22%
+    }
+
+    .odi-content .col-4 {
+        width: 30.6666666667%
+    }
+
+    .odi-content .col-5 {
+        width: 39.3333333333%
+    }
+
+    .odi-content .col-6 {
+        width: 48%
+    }
+
+    .odi-content .col-7 {
+        width: 56.6666666667%
+    }
+
+    .odi-content .col-8 {
+        width: 65.3333333333%
+    }
+
+    .odi-content .col-9 {
+        width: 74%
+    }
+
+    .odi-content .col-10 {
+        width: 82.6666666667%
+    }
+
+    .odi-content .col-11 {
+        width: 91.3333333333%
+    }
+
+    .odi-content .col-12 {
+        width: 100%
+    }
+
+    .odi-content .hidden-sm {
+        display: block
+    }
+}
+
+.odi-content .responsive-wrapper-16by9 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0
+}
+
+.odi-content .responsive-wrapper-16by9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0
+}
+
+.odi-content {
+    --odi-iconfont: "Material Icons Outlined";
+    --odi-color1: #2254F4;
+    --odi-color2: #178CFF;
+    --odi-color3: #00B6FF;
+    --odi-color4: #08DEF9;
+    --odi-color5: #1DD3A7;
+    --odi-color6: #0DBC37;
+    --odi-color7: #67EE67;
+    --odi-color9: #C0E236;
+    --odi-color10: #F9BC26;
+    --odi-color11: #FF6700;
+    --odi-color12: #D60303;
+    --odi-color13: #D73058;
+    --odi-color14: #EF3AAB;
+    --odi-color15: #E6007C;
+    --odi-color16: #B13198;
+    --odi-color17: #722EA5;
+    --odi-color18: #000000;
+    --odi-color19: #333333;
+    --odi-color20: #999999;
+    --odi-color21: #2F529F;
+    --odi-color22: #00ACE8;
+    --odi-color23: #7DC5EA;
+    --odi-color24: #eeeeee
+}
+
+#container {
+    display: flex;
+}
+
+#markdown-container,
+#html-container {
+    flex: 1;
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 12rem;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}

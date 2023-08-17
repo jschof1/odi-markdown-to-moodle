@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Markdown to HTML Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" target="_blank" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css" />
+    <script src="script.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" async></script>
+</head>
+
+<body>
+    <h1>ODI Markdown to HTML Converter</h1>
+    <ul>
+        <li>To get started convert the document to Markdown using the <a href="https://gdoc2md.com/">gdoc2md</a> tool.
+        </li>
+        <li>Enter Markdown text in the left box and click the "Convert" button to convert it to HTML.</li>
+        <li>Live edit the html output as you please.</li>
+        <li>Click the "Copy" button to copy the HTML to the clipboard.</li>
+    </ul>
+    <div id="container">
+        <div id="markdown-container">
+            <h3>Markdown</h3>
+            <textarea id="markdown"></textarea><br>
+            <button id="convert">Convert</button><br>
+        </div>
+        <div id="html-container">
+            <h3>HTML</h3>
+            <textarea id="output"></textarea>
+            <button id="copy">Copy</button>
+        </div>
+    </div>
+    <h3>Preview</h3>
+    <div id="preview"></div>
+
+</body>
+
+</html>
