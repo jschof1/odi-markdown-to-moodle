@@ -8,7 +8,7 @@ This tool allows you to convert Markdown text into the specific HTML format used
    If you have Git installed on your computer, you can clone the repository by running the following command:
 
    ```shell
-   git clone https://github.com/your-repository-url.git
+   [git clone https://github.com/your-repository-url.git](https://github.com/jschof1/odi-markdown-to-moodle)
    ```
 
    Otherwise, you can download the zip file of the repository and extract it.
