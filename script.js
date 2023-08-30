@@ -2,8 +2,16 @@ document.getElementById("convert").addEventListener("click", function () {
   let markdownText = document.getElementById("markdown").value;
   let div = document.createElement("div");
   div.innerHTML = marked.parse(markdownText);
+  let h1 = div.getElementsByTagName("h1")[0].textContent;
+  console.log(h1);
   let elements = div.childNodes;
-  let output = '<section class="odi-content">\n';
+  let radio = document.getElementById("toggle").checked;
+  let output = radio !== true ?  '<section class="odi-content">\n' : `<section class="odi-content"> 
+  <div class="banner-img b-0">
+      <img src="https://odi-test.opensourcelearning.co.uk/draftfile.php/2787/user/draft/418161189/Moodle-header-UDE-AI_M4.png" alt="banner image" width="3000" height="462" role="presentation" class="img-fluid 0">
+      <h2 class="top-left"><span>${h1}</span></h2>
+  </div>`;
+  
   let colorClasses = [
     "info",
     "discuss",
